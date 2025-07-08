@@ -125,13 +125,11 @@ seaborn>=0.12.0
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
 - Canadian Institute for Cybersecurity for the [CICIoV2024](https://www.unb.ca/cic/datasets/iov-dataset-2024.html) dataset
-- Flower (flwr) federated learning framework
-- TensorFlow and scikit-learn communities
 
 ---
 
