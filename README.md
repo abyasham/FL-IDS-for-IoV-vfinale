@@ -60,20 +60,20 @@ We propose a novel federated learning (FL) framework for attack detection on the
 
 Based on comprehensive experimental analysis with proper data separation and statistical validation:
 
-| Rank | Algorithm | F1-Score | Accuracy | Precision | Recall |
-|------|-----------|----------|----------|-----------|--------|
-| 1    | FedAvg    | 0.8330   | 0.9992   | 0.8328    | 0.8333 |
-| 2    | FedProx   | 0.8157   | 0.9836   | 0.8328    | 0.8019 |
-| 3    | FedNova   | 0.8157   | 0.9836   | 0.8328    | 0.8019 |
-| 4    | SCAFFOLD  | 0.8042   | 0.9746   | 0.8328    | 0.7842 |
+F1-SCORE ALGORITHM RANKING (Primary Metric):
+-----------------------------------------------------------------
+ 1. FEDNOVA      | F1: 0.8167 | Acc: 0.9844 | Prec: 0.8333 | Rec: 0.8030
+ 2. FEDPROX      | F1: 0.8165 | Acc: 0.9843 | Prec: 0.8330 | Rec: 0.8030
+ 3. SCAFFOLD     | F1: 0.8165 | Acc: 0.9843 | Prec: 0.8330 | Rec: 0.8030
+ 4. FEDAVG       | F1: 0.8164 | Acc: 0.9842 | Prec: 0.8327 | Rec: 0.8030
 
 ### Key Findings
 
-1. **FedAvg Superior Performance**: Achieved the highest F1-score (0.8330) and exceptional accuracy (0.9992)
+1. **FedNova Superior Performance**: Achieved the highest F1-score (0.8167) with excellent accuracy (0.9844)
 2. **Effective Non-IID Learning**: All algorithms successfully learned from specialized, heterogeneous data
-3. **Balanced Metrics**: High precision (0.8328) reduces false alarms while maintaining good recall for attack detection
-4. **Practical Performance**: All algorithms achieved F1-scores above 0.80, suitable for real-world deployment
-5. **Close Competition**: FedProx and FedNova tied for second place with identical performance metrics
+3. **Balanced Metrics**: High precision (0.8333) reduces false alarms while maintaining good recall for attack detection
+4. **Practical Performance**: All algorithms achieved F1-scores above 0.81, suitable for real-world deployment
+5. **Close Competition**: FedProx and SCAFFOLD tied for second place with identical performance metrics (F1: 0.8165)
 
 ### Cybersecurity Implications
 - **F1-Score Optimization**: Balances precision and recall critical for IoV attack detection
